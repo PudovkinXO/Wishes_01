@@ -22,7 +22,6 @@ class Wish(BaseModel):
     tags: list = []
 
 
-
 @app.post("/add_wish")
 def make_new_wish(new_wishes: List[Wish]):
     wishes.extend(new_wishes)
