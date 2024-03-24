@@ -36,9 +36,3 @@ def get_all_wishes():
 
 
 
-
-
-
-
-print("Саня лох")
-
